@@ -393,9 +393,17 @@ body .full-width {
 }
 
 @media (max-width: 800px) {
-  .intro-content,
+  .home-content,
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .home-img {
+    padding-left: 0;
+  }
+
+  #contact .home-img {
+    display: none;
   }
 
   .gallery-img {
@@ -444,7 +452,7 @@ body .full-width {
     width: 3rem;
     height: 3rem;
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
     cursor: pointer;
   }
 
